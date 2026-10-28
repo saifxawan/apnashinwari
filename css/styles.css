@@ -452,8 +452,9 @@ body.nav-open .bar:nth-child(3) {
 
 .about img {
   width: 100%;
-  aspect-ratio: 5 / 4;
+  height: clamp(20rem, 38vw, 31rem);
   object-fit: cover;
+  object-position: center;
   display: block;
   border-radius: 1.1rem;
 }
@@ -1298,7 +1299,7 @@ body.nav-open .dock {
   }
 
   .about img {
-    aspect-ratio: 4 / 3;
+    height: 16rem;
   }
 
   .signatures {
